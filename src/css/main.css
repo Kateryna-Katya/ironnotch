@@ -112,3 +112,71 @@ width: 108px;
 height: 107px;
 }
 }
+/* About */
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+}
+.about-title{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 343px;
+        height: 101px;
+display: flex;
+align-items: center;
+justify-content: center;  
+margin-bottom: 24px;
+}
+.about-title h2{
+color: #fff;
+text-align: center;
+margin-bottom: 0;
+}
+.about-subtitle{
+    text-align: center;
+}
+.about-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.about-text{
+font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #212222;
+}
+@media only screen and (min-width: 1440px) {
+.about-container {
+flex-direction: row;
+padding-top: 104px;
+gap: 64px;
+}
+.about-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 528px;
+    height: 297px;
+}
+.about-title {
+background-image: url("/img/about/desk.png");
+width: 480px;
+height: 142px;
+margin-bottom: 87px;
+}
+.about-subtitle {
+width: 388px;
+}
+.about-text {
+font-size: 18px;
+}
+.about-text-wrapper{
+    width: 720px;
+}
+}
