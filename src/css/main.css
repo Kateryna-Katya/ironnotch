@@ -180,3 +180,71 @@ font-size: 18px;
     width: 720px;
 }
 }
+/* GAMEPLAY */
+.gameplay-wrapper{
+    background-image: url("/img/gameplay/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 343px;
+        height: auto;
+padding: 40px 16px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.gameplay-title{
+color: #212222;
+}
+.gameplay-subtitle{
+    width: 311px;
+    text-align: center;
+color: #595959;
+}
+.gameplay-list{
+border-radius: 36px;
+    padding: 24px;
+    width: 311px;
+box-shadow: 8px 8px 14px 0 rgba(95, 95, 95, 0.16);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.gameplay-item{
+    width: 231px;
+    display: flex;
+        flex-direction: column;
+align-items: center;
+        gap: 24px;
+text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.gameplay-wrapper {
+ background-image: url("/img/gameplay/desk.png");
+width: 1312px;
+border-radius: 48px;
+padding: 64px;
+}
+ .gameplay-subtitle {
+width: 100%;
+}
+.gameplay-list {
+    margin-top: 8px;
+    padding: 40px;
+    width: 1184px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+    .gameplay-item {
+        width: 231px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        text-align: center;
+    }
+}
