@@ -370,3 +370,10 @@ margin-bottom: 32px;
     width: 640px;
  }
 }
+/* Gallery */
+.gallery-section h2{
+    text-align: center;
+}
+.gallery-section h3{
+    text-align: center;
+}
