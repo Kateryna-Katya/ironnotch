@@ -6,7 +6,7 @@ import 'swiper/css';
 // SYSTEMS
 const systemsSwiper = new Swiper('.systems-swiper', {
   modules: [Navigation],
-  slidesPerView: 2,
+  slidesPerView: 1.5,
   spaceBetween: 16,
 loop: true,
   navigation: {
