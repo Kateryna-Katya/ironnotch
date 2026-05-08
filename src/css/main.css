@@ -343,3 +343,30 @@ width: 46px;
     height: 46px;
  }
 }
+/* WHY PLAY NUT & BOLT: SCREW WOODY PUZZLE? */
+.why-section{
+    background: #edbb83;
+}
+.why-wrapper h2{
+margin-bottom: 32px;
+}
+.why-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.why-container{
+    display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+}
+@media only screen and (min-width: 1440px) {
+ .why-container{
+    flex-direction: row;
+    gap: 64px;
+ }
+ .why-wrapper{
+    width: 640px;
+ }
+}
