@@ -553,4 +553,7 @@ font-family: "Poppins", sans-serif;
  .contact-text{
     width: 640px;
  }
+ .contact-link {
+    font-size: 18px;
+ }
 }
