@@ -1,0 +1,81 @@
+@import url('./styles.css');
+
+
+
+.background {
+    text-align: left;
+}
+
+.privacy-title {
+font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #595959;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: #595959;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+color: #0040ff;
+}
+
+.text {
+    margin-top: 20px;
+
+}
+
+.mail-link {
+color: #0040ff;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+    .privacy-title {
+font-size: 38px;
+    }
+
+    .policy-container {
+        padding-left: 212px;
+        padding-right: 212px;
+    }
+.policy-subtitle{
+    font-size: 24px;
+}
+}
